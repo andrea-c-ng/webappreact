@@ -1,0 +1,84 @@
+
+.wrapper {
+    height: "100vh";
+    background-image: url("./static/sky.jpg");
+    background-Position: "center";
+    background-Repeat: "no-repeat";
+    background-Size: "cover"
+}
+
+.frame {
+    border: "1px solid black";
+    width: '300px';
+    height: '380px';
+    padding: '10px';
+    border-Radius: '5px';
+    background-Color: "rgba(249, 249, 97, 0.5)";
+    overflow: "hidden",
+}
+
+.grid {
+    font-Family: 'wt034';
+    box-Shadow: "2px 2px 3px black";
+    border-Radius: "2px";
+    box-Sizing: "border-box";
+    background-Image: url("./static/sky.jpg");
+    font-Size: "3em";
+    color: "#202020";
+    text-shadow: "1px 1px 1px #ccc";
+    display: "flex";
+    flex-Direction: "column";
+    justify-Content: "center";
+    align-Items: "center";
+    text-Align: "center"
+}
+
+.sBlock {
+    font-Size: "1.5em";
+    color: "#3d2b20";
+    text-Shadow: "1px 1px 1px white";
+}
+
+.wBlock {
+    text-Shadow: "1px 1px 1px blue";
+}
+
+.vBlock{
+    text-Shadow: "1px 1px 1px yellow";
+}
+
+.bBlock {
+    font-Size: "5em";
+    color: '#e04c23';
+    text-Shadow: "2px 2px 1px black"
+}
+
+button {
+    margin-Top: "10px";
+    font-Size: "12px"
+}
+
+.nonfreedom {
+    margin: "0";
+    color: "green";
+    opacity: "0.8";
+    text-Shadow: "1px 1px 1px black"
+}
+
+.freedom{
+    margin: "0";
+    color: "green";
+    filter: "brightness(150%)";
+    text-Shadow: "1px 1px 1px black"
+}
+
+.modalScreen {
+    min-Height: "100vh";
+    background-Color: "rgba(255,255,255,0.7)"
+}
+
+.modalContent {
+    width: "430px";
+    height: "300px";
+    text-Align: "center"
+}
